@@ -46,7 +46,7 @@ class StoreManagementApp:
             self.connection = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="pixel8pro",  # Mot de passe mis à jour
+                password="",  # Remplacez par votre mot de passe
                 database="store"
             )
             print("Connexion à la base de données réussie")
@@ -58,7 +58,7 @@ class StoreManagementApp:
                     temp_connection = mysql.connector.connect(
                         host="localhost",
                         user="root",
-                        password="pixel8pro"  # Mot de passe mis à jour
+                        password=""  # Remplacez par votre mot de passe
                     )
                     
                     # Création de la base de données et des tables
@@ -80,7 +80,7 @@ class StoreManagementApp:
                     self.connection = mysql.connector.connect(
                         host="localhost",
                         user="root",
-                        password="pixel8pro",  # Mot de passe mis à jour
+                        password="",  # Remplacez par votre mot de passe
                         database="store"
                     )
                     messagebox.showinfo("Succès", "Base de données créée et initialisée avec succès")

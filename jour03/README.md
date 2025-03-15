@@ -25,13 +25,13 @@ pip install mysql-connector-python
 mysql -u root -p < job01.sql
 ```
 
-Si vous avez un mot de passe pour votre utilisateur MySQL, vous devrez le modifier dans le fichier `job01.py` :
+3. Modifiez les informations de connexion dans les fichiers `job01.py` et `setup.py` pour utiliser votre mot de passe MySQL :
 
 ```python
 self.connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="votre_mot_de_passe",  # Modifiez cette ligne
+    password="votre_mot_de_passe",  # Modifiez cette ligne avec votre mot de passe
     database="store"
 )
 ```

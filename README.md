@@ -67,11 +67,6 @@ self.connection = mysql.connector.connect(
 )
 ```
 
-## Captures d'écran
-
-![Gestion des produits](screenshots/products.png)
-![Statistiques](screenshots/stats.png)
-
 ## Auteur
 
-[Votre nom]
+Adam Telmat
